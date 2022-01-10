@@ -86,11 +86,11 @@ def cevap(kayit):
         konus("Sen ne dersin beyim")
 
 
-"""def erisimKontrolu(ses):
+def erisimKontrolu(ses):
     if "bacı" in ses.lower():
         return True
     else:
-        return False"""
+        return False
 
 def lolBilgisi():
     koridor = input(konus("Koridor söyle beyim"))
@@ -125,6 +125,6 @@ def lolBilgisi():
 def main():
     konus("Hoşgeldiniz beyim")
     while True:
-        cevap(str(input("gir")))
+        cevap(hafiftenDinle())
 
 main()
